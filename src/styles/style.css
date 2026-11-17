@@ -85,3 +85,29 @@ h1{
     display: flex;
     gap: 10px;
 }
+
+.section-statistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: var(--color-LottusBerry);
+    padding: 20px 0;
+}
+
+.section-statistics h2{
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
+    color: var(--color-light);
+    font-weight: 400;
+}
+
+.section-statistics p{
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    color: var(--color-light);
+}
+
+.section-statistics div{
+    text-align: center;
+}

@@ -41,3 +41,47 @@ li a{
     border-radius: 10px;
     text-decoration: none;
 }
+
+.main-content .btn-primary{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: var(--color-LottusNight);
+    padding: 90px 0;
+}
+
+h1{
+    font-family: var(--font-title);
+    font-size: var(--font-size-h1);
+    color: var(--color-light);
+    font-weight: 400;
+}
+
+.text-highlight{
+    color: var(--color-primary);
+}
+
+.main-content p{
+    font-family: var(--font-body);
+    font-size: var(--font-size-body);
+    width: 476px;
+    color: var(--color-light);
+}
+
+.main-content{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.main-content nav{
+    display: flex;
+    gap: 10px;
+}
